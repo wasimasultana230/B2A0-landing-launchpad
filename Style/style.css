@@ -1,0 +1,37 @@
+.btn-primary{
+ color: #FFFFFF;
+ background-color: #4E47FF;   
+ border: none;
+ border-radius: 8px;
+ padding: 5px 15px;
+}
+.btn-primary:hover{
+    background-color: black;
+}
+/* nav style */
+.header-part{
+  background-image: url(../Assets/Hero-bg.png); 
+  height: 600px; 
+}
+.nav-title{
+    padding-top: 30px;
+      margin-left: 220px;
+      margin-right: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 90px;
+}
+.logo{
+    color: #4E47FF;
+    font-weight: bolder;
+}
+/* banner-part */
+.banner-part{
+    text-align: center;
+    padding-bottom: 200px;
+}
+.banner-part h2{
+    font-size: 65px;
+    font-weight: bold;
+}
