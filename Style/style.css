@@ -222,6 +222,12 @@
 
 /* footer */
 footer {
+    background-color: #F2EDED;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+.footer {
     margin: 100px 300px;
     text-align: center;
 }
