@@ -19,7 +19,7 @@
     background-color: #4E47FF;
     border: none;
     border-radius: 8px;
-    padding: 8px 20px;
+    padding: 10px 30px;
 }
 
 .btn-primary:hover {
@@ -29,7 +29,7 @@
 /* nav style */
 .header-part {
     background-image: url(../Assets/Hero-bg.png);
-    height: 600px;
+    height: 650px;
 }
 
 .nav-title {
@@ -45,6 +45,7 @@
 .logo {
     color: #4E47FF;
     font-weight: bolder;
+    font-size: 34px;
 }
 
 /* banner-part */
@@ -222,6 +223,7 @@
 
 /* footer */
 footer {
+    margin-top: 100px;
     background-color: #F2EDED;
     padding-top: 2px;
     padding-bottom: 15px;
