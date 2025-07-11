@@ -15,8 +15,8 @@
 }
 .nav-title{
     padding-top: 30px;
-      margin-left: 220px;
-      margin-right: 220px;
+      margin-left: 150px;
+      margin-right: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,4 +34,26 @@
 .banner-part h2{
     font-size: 65px;
     font-weight: bold;
+}
+/* Action-part */
+.Action-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 120px;
+    align-items: center;
+    gap: 130px;
+}
+.action-title{
+   font-size: 42px; 
+   font-weight: bold;
+   color: #252432;
+}
+.action-description{
+ font-size: 24px;
+ color: rgba(37,36,50,50%);   
+}
+.action-image img{
+    border-radius: 48px;
+    height: 300px;
+    width: 380px;
 }
