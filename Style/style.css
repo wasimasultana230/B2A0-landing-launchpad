@@ -114,7 +114,7 @@
 
 /* user-comment-part */
 .comment-section {
-    margin: 10px 120px;
+    margin: 100px 120px;
 }
 
 .user-comment-title {
@@ -146,20 +146,59 @@
 
 /* focus-section */
 .focus-section{
-    margin: 10px 120px;
+    border-radius: 10px;
+    margin: 100px 120px;
+   padding: 20px;
     background-color: #F2EDED;
 
 }
 .focus-text{
     text-align: center;
-    margin-top: 120px;
     margin-bottom: 10px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 .focus-img img{
-    height: 300px;
-    width: 500px;
+    border-radius: 30px;
+    width: 50%;
     margin-left: 230px;
-    padding-bottom: 30px;
-    border-radius: 48px;
+}
+
+/* form-section */
+.form-section{
+    margin: 100px 120px;
+}
+.form-part{
+    margin: 20px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-title{
+width: 70%;
+font-size: 80px;
+font-weight: bold;
+}
+.btn{
+width: 100%;
+margin-right: 0px;
+}
+.form-start{
+    width: 50%;
+}
+.title{
+    font-size: 18px;
+    font-weight: medium;
+    margin-bottom: 5px;
+}
+.form-start input[type="text"],
+.form-start input[type="email"],
+.form-start textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #F2EDED;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
